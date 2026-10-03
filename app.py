@@ -45,7 +45,7 @@ def adicionar_mensagem(username, mensagem):
     salvar_mensagens(mensagens)
 
 
-logo_col, titulo_col = st.columns([0.7, 8], gap="small", vertical_alignment="center")
+logo_col, titulo_col = st.columns([0.5, 8], gap="small", vertical_alignment="center")
 with logo_col:
     st.image(str(LOGO), width=64)
 with titulo_col:
